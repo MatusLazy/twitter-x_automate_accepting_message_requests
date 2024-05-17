@@ -29,7 +29,7 @@ async function accept_invite(chatID) {
         "headers": {
             "accept": "*/*",
             "accept-language": "en-GB,en-US;q=0.9,en;q=0.8",
-            "authorization": "Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA",
+            "authorization": "Bearer YOUR BEARER TOKEN",
             "content-type": "application/x-www-form-urlencoded",
             "priority": "u=1, i",
             "sec-fetch-dest": "empty",
