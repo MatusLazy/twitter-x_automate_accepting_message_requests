@@ -4,7 +4,8 @@ Automate accepting all message requests on your Twitter account. Useful for auto
 ## STEPS 
 1. Navigate to: https://x.com/messages/requests
 2. Open DevTools (usually by right-clicking on the page and selecting "Inspect" or pressing `Ctrl+Shift+I` or `Cmd+Option+I`), navigate to the "Network" tab, and refresh the page.
-3. Look for any request in the "Network" tab (e.g., to fetch message requests) and check the request headers for the Bearer token. It should look like this: 
+3. Look for any request in the "Network" tab (e.g., to fetch message requests) and check the request headers for the Bearer token. It should look like this:
+![image](https://github.com/MatusLazy/twitter-x_automate_accepting_message_requests/assets/50539437/d6f38891-ebfc-4817-a5e5-aec5bf0894fb)
 4. Copy the Bearer token.
 5. Open the console (usually by clicking on the "Console" tab in DevTools) and paste the script provided in this repository.
 6. Replace the placeholder `BEARER_TOKEN` in the script (line 32) with the Bearer token you copied in step 4.
